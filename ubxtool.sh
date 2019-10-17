@@ -5,7 +5,7 @@ DESTINATION="`cat /usr/local/ubxtool/destination`"
 
 DEV="/run/ubxtool"
 
-STATION="`/usr/local/ubxtool/station`"
+STATION="`cat /usr/local/ubxtool/station`"
 CONSTELLATIONS="--galileo --gps --beidou --glonass"
 CONSTELLATIONS="--galileo --gps --beidou"
 
