@@ -16,7 +16,7 @@ Here are some ground rules to follow once you have locally tested your galmon st
  * Even if you think it should be fine to reuse the same ID, for example
    because your observer page on galmon.eu will look nicer, DO NOT DO IT!
    It messes up our algorithms which track the clock of your receiver.
- * Please set the --owner and --remark fields - they help with administration.
+ * Please set the --owner and --remark fields in your ubxtool.sh file - they help with administration.
    These fields will show up on https://galmon.eu/observers.html
  * Ublox8 based receivers support (GPS AND Galileo) + (BeiDou OR GLONASS). They can't
    process all four systems at the same time. GPS and Galileo share a slot. BeiDou or GLONASS
